@@ -14,22 +14,22 @@ export default function App() {
           />
           <div className="right-nav">
             <div>
-              <div>Offerings</div>
+              <div>Javascript</div>
               <FaAngleDown />
             </div>
             <div>
-              <div>Markets</div>
+              <div>React</div>
               <FaAngleDown />
             </div>
             <div>
-              <div>Careers</div>
+              <div>HTML</div>
               <FaAngleDown />
             </div>
             <div>
-              <div>About Us</div>
+              <div>CSS</div>
               <FaAngleDown />
             </div>
-            <button id="contactUsBtn">Contact Us</button>
+            <button id="contactUsBtn">Made by me</button>
             <IoSearch size={30} />
           </div>
         </div>
