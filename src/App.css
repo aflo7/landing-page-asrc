@@ -1,0 +1,80 @@
+#contactUsBtn,
+#learnMoreBtn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+main {
+  height: 600px;
+  background: linear-gradient(rgba(77, 172, 255, 0.6), rgba(77, 172, 255, 0.6)),
+    url(https://www.asrcfederal.com/wp-content/uploads/2023/07/collaborative-employees-looking-at-laptop.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.n1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-nav {
+  display: none;
+}
+
+.right-nav > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+}
+
+.line-wrapper {
+  height: 200px;
+  background-image: url(https://www.asrcfederal.com/wp-content/uploads/2020/01/Line-Design2-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.main-inner {
+  padding: 20px;
+  color: white;
+  /* font-size: 4rem; */
+  display: flex;
+  align-items: center;
+}
+
+.main-inner > div {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .n1 {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-inner {
+    width: 1000px;
+  }
+
+  .right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
